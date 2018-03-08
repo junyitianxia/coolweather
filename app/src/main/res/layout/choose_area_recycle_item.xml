@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:textSize="15sp"
+    android:id="@+id/tv_cari_address_name"
+    android:layout_marginLeft="15dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:textColor="@color/color_333333"
+    android:layout_height="30dp" />
+</LinearLayout>

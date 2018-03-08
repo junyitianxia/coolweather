@@ -5,6 +5,5 @@
         <mapping class="com.junyi.weather.db.Province" />
         <mapping class="com.junyi.weather.db.City" />
         <mapping class="com.junyi.weather.db.County" />
-
     </list>
 </litepal>

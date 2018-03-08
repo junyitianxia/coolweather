@@ -10,9 +10,9 @@ import org.litepal.crud.DataSupport;
  * @author sunxiulei
  * @date 2018/3/1
  */
-public class Province extends DataSupport{
+public class Province extends DataSupport {
     private int id;
-    private String provinceName;
+    private String provincename;
     private int provinceCode;
 
     public int getId() {
@@ -24,11 +24,11 @@ public class Province extends DataSupport{
     }
 
     public String getProvinceName() {
-        return provinceName;
+        return provincename;
     }
 
     public void setProvinceName(String provinceName) {
-        this.provinceName = provinceName;
+        this.provincename = provinceName;
     }
 
     public int getProvinceCode() {
