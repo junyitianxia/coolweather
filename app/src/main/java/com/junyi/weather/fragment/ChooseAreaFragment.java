@@ -111,7 +111,11 @@ public class ChooseAreaFragment extends Fragment implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ib_ca_back:
-
+                if (currentLevel == LEVEL_CITY) {
+                    queryProvince();
+                } else if (currentLevel == LEVEL_COUNTY) {
+                    queryCity();
+                }
                 break;
         }
     }
